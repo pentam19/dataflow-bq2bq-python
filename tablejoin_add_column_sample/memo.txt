@@ -1,0 +1,5 @@
+virtualenv .
+. bin/activate
+
+pip install apache-beam
+pip install "apache_beam[gcp]"
